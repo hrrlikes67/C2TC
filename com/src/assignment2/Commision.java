@@ -14,6 +14,8 @@ public class Commision {
 	void members() {
 		System.out.println(salesamount + "Commision");
 	}
+	}
+
 
 	
 	if(salesamount>=100000) {
@@ -35,5 +37,6 @@ public class Commision {
 		a1.members();
 		a2.members();
 		}}
+
 
 
