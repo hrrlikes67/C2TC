@@ -14,10 +14,7 @@ public class Commision {
 	void members() {
 		System.out.println(salesamount + "Commision");
 	}
-	}
-
-
-	
+	{
 	if(salesamount>=100000) {
 		System.out.println("Commisission=10%");
 	}else if(50000<=salesamount<10000) {
@@ -29,14 +26,17 @@ public class Commision {
 	}else {
 		System.out.print(false);
 	}
-	
+	}
 	class test{
 		public static void main(String[] args) {
 			Commision a1=new Commision("Rajesh","E.city",1000f);
 			Commision a2=new Commision("Ramu","E.city II",50000f);
 		a1.members();
 		a2.members();
-		}}
+		}
+		}
+}
+
 
 
 
