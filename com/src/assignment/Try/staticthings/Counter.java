@@ -1,7 +1,7 @@
 package assignment.Try.staticthings;
 
 public class Counter {
-static int x=0;
+static int x=1;
 Counter()
 {
 	x++;
