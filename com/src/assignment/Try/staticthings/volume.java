@@ -1,4 +1,4 @@
-package tns;
+package assignment.Try.staticthings;
 
 public class volume {
 	public void vol(int side)
