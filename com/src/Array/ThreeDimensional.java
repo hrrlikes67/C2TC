@@ -9,9 +9,9 @@ final int[][] matrix= {
 		{1, 6, 5},
 		{8, 4, 4}
 		};
-for(int i=0;i< matrix.length;i++)
+for(int i=0;i<3;i++)
 {
-	for(int j=0;j<matrix.length;j++)
+	for(int j=0;j<3;j++)
 	{
 		System.out.print(matrix[i][j]+" ");
 	}
