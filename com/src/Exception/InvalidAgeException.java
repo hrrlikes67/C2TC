@@ -1,18 +1,23 @@
 package Exception;
 
 import java.util.Scanner;
-
 public class InvalidAgeException extends Exception  {
-private static String age;
+	//Declare a parameterized exception with string str as a parameter.
+
+	InvalidAgeException(String str)
+	{
+		super(str);
+	}
+private static int age;
 static void validate()throws InvalidAgeException 
 {
 	Scanner sc=new Scanner(System.in);
 	System.out.println("Enter your age");
-	age=sc.next int();
+	age=sc.nextInt();
 	if(age<18)
-		throw new InvalidAgeException ("invalid age,you are not eligble to vote");
+		throw new InvalidAgeException ("invalid Age,you are not eligble to vote");
 	else
-		System.out.println("welcome to vote");
+		System.out.println("Welcome to vote");
 }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
