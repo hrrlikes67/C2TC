@@ -6,7 +6,7 @@ public class DecsionMaking1 {
 		// TODO Auto-generated method stub
 		int ageOfBoy = 36;
 		int ageOfGirl = 25;
-		if ((ageOfBoy >= 21) && (ageOfGirl >= 18))
+		if ((ageOfBoy >= 40) && (ageOfGirl >= 20))
 		{
 		System.out.println("Ready to get married;>");
 		}
