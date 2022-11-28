@@ -11,7 +11,7 @@ public class clients {
 		Student student=new Student();
 		
 		student.setStudentId(100);
-		student.setName("chandana");
+		student.setName("hemanth");
 		service.addStudent(student);
 		
 		student=service.findStudentById(100);
@@ -20,7 +20,7 @@ public class clients {
 		
 		
 		student=service.findStudentById(100);
-		student.setName("chandana Jayaram");
+		student.setName("hemant ravi");
 		service.updateStudent(student);
 		
 		student=service.findStudentById(100);
